@@ -17,6 +17,14 @@
     background-color: pink;
     color: rgb(24, 109, 95);
 }
+.button-2:hover{
+    background-color: pink;
+    color: rgb(24, 109, 95);
+}
+.button-1:hover{
+    background-color: pink;
+    color: rgb(24, 109, 95);
+}
 
 /* main */
 
@@ -44,4 +52,58 @@
     text-decoration: none;
     color: black;
 
+}
+
+section{
+    background-image: url("./Image/hero-bg.png");
+    background-size:cover;
+    padding: 115px 120px 180px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.button-1{
+    color: #30B868 ;
+    border-radius: 100px;
+    padding: 8px 12px;
+    border-style: none;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.first-h1{
+    color: rgba(255, 255, 255, 1);
+    font-size: 72px;
+    font-weight: 900;
+}
+.second-h1{
+    color: rgba(48, 184, 104, 1);
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.paragraf{
+    color: white;
+    margin-bottom: 32px;
+}
+.button{
+    display: flex;
+    gap: 16px;
+}
+
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.button-2{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 0 16px;
+    cursor: pointer;
 }
