@@ -155,3 +155,36 @@ section{
     font-size: 25px;
     margin: 16px 0;
 }
+
+.brain-section{
+    display: flex;
+    max-width: 1600px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 120px 0;
+    align-items: center;
+}
+
+.brain-text{
+    width: 700px;
+}
+
+.brain-para{
+    color: #30B868;
+    margin-bottom: 16px;
+}
+.brainh3{
+    margin-bottom: 16px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.brain-para2{
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+
+.circle{
+    display: flex;
+    margin-bottom: 16px;
+}
